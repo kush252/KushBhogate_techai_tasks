@@ -1,6 +1,6 @@
 import random
 words_list=[]
-with open("five_let_words.txt","r") as f:
+with open("datasets/five_let_words.txt","r") as f:
     for line in f:
         words_list.append(line.strip())
 print("="*50)
